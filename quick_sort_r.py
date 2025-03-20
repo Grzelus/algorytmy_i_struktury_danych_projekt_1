@@ -9,3 +9,4 @@ def quick_sort_r(array):
     right = [x for x in array if x < pivot]
 
     return quick_sort_r(left) + middle + quick_sort_r(right)
+
